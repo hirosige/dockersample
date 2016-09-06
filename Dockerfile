@@ -6,6 +6,7 @@ MAINTAINER 0.1 asashiho@mail.asa.yokohama
 
 # 3.Apache HTTP Serverのインストール
 RUN yum -y install httpd
+RUN yum -y install php
 
 # 4.Webコンテンツの配置
 ADD html/ /var/www/html/
